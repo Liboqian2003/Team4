@@ -1,0 +1,9 @@
+# Team 4 — C1-W1-2026 dependencies
+# Pin ranges are loose on purpose; congela versiones exactas con
+# `.venv/bin/pip freeze > requirements.lock.txt` cuando entreguemos.
+
+numpy>=1.26,<3
+opencv-python>=4.9,<5
+scikit-image>=0.22,<0.26
+matplotlib>=3.8,<4
+ipykernel>=6.29,<7
