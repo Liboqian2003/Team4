@@ -15,8 +15,8 @@ mAP values evaluated on QSD1 against its ground truth (`gt_corresps.pkl`).
 |---|---|---|---|---|---|
 | Method 1 | HSV | 16 | χ² | 0.90 | 0.95 |
 | Method 2 | CIELab | 32 | Hellinger | 0.90 | 0.92 |
-mAP values evaluated on QST1 against its ground truth.
 
+mAP values evaluated on QST1 against its ground truth.
 ### How to run
 Place `BBDD/`, `qsd1_w1/` and `qst1_w1/` inside `week1/`, then run from `week1/`:
 
