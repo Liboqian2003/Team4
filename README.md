@@ -11,6 +11,11 @@ Before computing the histograms, each RGB channel is scaled to mean 128 to norma
 | Method 2 | CIELab | 32 | Hellinger | 0.90 | 0.92 |
 
 mAP values evaluated on QSD1 against its ground truth (`gt_corresps.pkl`).
+| | Color space | Bins / channel | Distance | mAP@1 | mAP@5 |
+|---|---|---|---|---|---|
+| Method 1 | HSV | 16 | χ² | 0.90 | 0.95 |
+| Method 2 | CIELab | 32 | Hellinger | 0.90 | 0.92 |
+mAP values evaluated on QST1 against its ground truth.
 
 ### How to run
 Place `BBDD/`, `qsd1_w1/` and `qst1_w1/` inside `week1/`, then run from `week1/`:
